@@ -48,9 +48,6 @@ function init() {
     src: "assets/img/share.png",
     id: "share"
   }, {
-    src: "assets/img/add-to-leaderboard.png",
-    id: "leaderboard"
-  }, {
     src: "assets/fonts/FB.eot"
   }, {
     src: "assets/fonts/FB.svg"
