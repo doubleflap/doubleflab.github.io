@@ -60,7 +60,7 @@ table {
 }
 
 body {
-  background-color: #272b30;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -69,7 +69,8 @@ canvas {
   margin: 0px auto;
   z-index: 1;
   height: 100vh;
-  /*width: 480px;*/
+	/*border-radius: 5px;
+  width: 480px;*/
 }
 
 @media (max-width: 550px) {
