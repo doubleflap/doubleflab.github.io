@@ -279,7 +279,6 @@ function die() {
   score = addImageAtCenter("score", 0, -150);
   start = addImageAtCenter("start", -120, 50);
   share = addImageAtCenter("share", 120, 50);
-  leaderboard = addImageAtCenter("leaderboard", 0, 150);
   stage.removeChild(counter, counterOutline);
   stage.addChild(score);
   stage.addChild(start);
@@ -295,7 +294,6 @@ function die() {
   stage.addChild(counter, counterOutline, highScore, highScoreOutline);
   dropIn(score);
   dropIn(start);
-  dropIn(leaderboard);
   dropIn(counter);
   dropIn(counterOutline);
   dropIn(highScore);
