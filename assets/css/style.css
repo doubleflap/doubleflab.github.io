@@ -64,9 +64,14 @@ body {
   text-align: center;
 }
 
+.wrap {
+  margin: 0px auto;
+  background-color: #ded895 !important;
+  height: 100vh;
+}
+
 canvas {
   position: relative;
-  margin: 0px auto;
   z-index: 1;
   height: 100vh;
 	/*border-radius: 5px;
